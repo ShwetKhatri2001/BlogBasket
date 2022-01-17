@@ -45,7 +45,7 @@ const BlogList = ({ blogs }) => {
             <BlogItem key={blog.id} blog={blog} />
         ))}
       </div>
-      <div data-aos="fade-up">
+      <div data-aos="fade-up" data-aos-offset="0">
         {blogs && blogs.length > 0 && (
           <Pagination
             count={totalPages}
